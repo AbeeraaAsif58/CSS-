@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body, html {
     height: 100%;
     overflow-y: hidden; 
@@ -14,7 +13,6 @@ body, html {
     width: 100%;
     overflow: hidden; 
 }
-
 .navbar {
     height: 10vh;
     width: 100%;
@@ -25,7 +23,6 @@ body, html {
     font-size: 13px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .r-nav{
     height: 10vh;
     width: 30%;
@@ -47,6 +44,9 @@ body, html {
     gap: 30px;
     list-style: none;
 }
+.l-nav li:nth-child(2){
+    opacity: 0.6;
+}
 .navbar1{
     height: 10vh;
     width: 100%;
@@ -58,13 +58,11 @@ body, html {
     font-size: 13px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
 .cantainer {
     height: 80vh;
     width: 100%;
     overflow: hidden;
 }
-
 .slider1 {
     height: 40vh;
     width: 100%;
@@ -75,7 +73,6 @@ body, html {
 .slider1::-webkit-scrollbar {
     height: 8px; 
 }
-
 .slider1::-webkit-scrollbar-thumb {
     background-color: rgb(226, 14, 102);
     border-radius: 10px;
@@ -126,4 +123,4 @@ body, html {
     width: 100%;
     object-fit: cover;
     object-position: 10% 10%;   
-}
+} 
